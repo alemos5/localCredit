@@ -13,7 +13,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+    <a style="" class="navbar-brand" href="site">
+        <img src="img/logo.png">
+    </a>
 </div>
 
 <!-- /.navbar-header -->

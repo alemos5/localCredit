@@ -15,5 +15,8 @@ Route::group(['middleware' => ['web']], function () {
     Route::auth();
     Route::get('/home', 'HomeController@index');
     Route::get('/', 'HomeController@index');
+    Route::get('', 'SiteController@site');
     Route::get('site', 'SiteController@site');
+    Route::get('notes', 'NotesController@index');
+    Route::get('notes/{id}/destroy', 'NotesController@destroy')->name('notes.destroy');
 });
