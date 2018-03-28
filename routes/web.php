@@ -20,3 +20,8 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('notes', 'NotesController@index');
     Route::get('notes/{id}/destroy', 'NotesController@destroy')->name('notes.destroy');
 });
+
+
+/*Route::get('/', function () {
+    return view('welcome');
+});*/
